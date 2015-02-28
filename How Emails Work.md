@@ -16,9 +16,12 @@
 	*	3.b SMTP Server asks for the IP address of of the email from the Domain Name System Server (the action is called DNS lookup)
 			
 	*	3.c Once the IP address is obtain, SMTP server of sender connect s to the Mail Transfer Agent Server of the receiver.
-	proceed to step 4
+	*	proceed to step 4
 
 4. Email client of the receiver fetches the mail either via POP3 or IMAP4.
+
+See below for the visual representation on how emails work. Im not sure if its allowed for me to post pictures taken from the net so I just drew one myself.
+![alt text](https://github.com/antoniocarlosortiz/svi-training/blob/master/photos/20150228_105142.jpg 'my drawing')
 
 ####What is POP3 and what is IMAP4?
 
