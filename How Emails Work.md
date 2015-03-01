@@ -34,7 +34,6 @@ See below for the visual representation on how emails work that I got from googl
 For further reference, please see links below for the official doc of both protocols:
 
 [IETF official doc: POP3](https://www.ietf.org/rfc/rfc1939.txt)
-
 [IETF official doc: IMAP4](https://tools.ietf.org/html/rfc3501)
 
 ####Question: If all my e-mails are stored on the server, how can i read my mail if i'm not connected to the internet?
