@@ -42,6 +42,9 @@ The email client creates local copies which will automatically push all changes 
 ####How are attachments handled?
 It is converted to a text file during the handling of the mail. Before these were all  manually encoded using the program called uenncode. What it does is that it coverts the binary of the attachment to a text file. 
 
+Please see below for further reference on how mail servers send attachments:
+[How MIME works](http://email.about.com/cs/standards/a/mime.htm)
+
 ####Internet Email Standards:
 
 **Multipurpose Internet Mail Extensions (MIME)** - is an internet standard that extends the format of email to support like the attachment of audio or video on mails. Encoding and decoding is now auomatically done by this standard.
