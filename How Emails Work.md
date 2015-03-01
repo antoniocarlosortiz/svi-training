@@ -8,15 +8,15 @@
 
 3. SMTP Server to look at the 'to' part from the email header and checks if it is the same domain.
 
-*	If it is the same. e.g. from dog@google.com to mouse@google.com:		
-	*	3.a the SMTP transfers the email to the Mail Transder Agent (MTA) Server to handle where the email should be stored
+	*	If it is the same. e.g. from dog@google.com to mouse@google.com:		
+		*	3.a the SMTP transfers the email to the Mail Transder Agent (MTA) Server to handle where the email should be stored
 	*	proceed to step 4
 
-*	If it is not the same e.g. from dog@google.com to cat@yahoo.com:
-	*	3.b SMTP Server asks for the IP address of of the email from the Domain Name System Server (the action is called DNS lookup)
+	*	If it is not the same e.g. from dog@google.com to cat@yahoo.com:
+		*	3.b SMTP Server asks for the IP address of of the email from the Domain Name System Server (the action is called DNS lookup)
 			
-	*	3.c Once the IP address is obtain, SMTP server of sender connect s to the Mail Transfer Agent Server of the receiver.
-	*	proceed to step 4
+		*	3.c Once the IP address is obtain, SMTP server of sender connect s to the Mail Transfer Agent Server of the receiver.
+		*	proceed to step 4
 
 4. Email client of the receiver fetches the mail either via POP3 or IMAP4.
 
