@@ -12,7 +12,7 @@ The file provides the step by step by detail on creating the internal Newsletter
 <br>
 <br>
 <br>
-*this file is written in Markdown. See links below to learn more about this:*
+*This file is written in Markdown. See links below to learn more about this:*
 
 [Daring Fireball Markdown Syntax](http://daringfireball.net/projects/markdown/basics)
 
