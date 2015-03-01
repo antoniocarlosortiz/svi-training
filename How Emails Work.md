@@ -22,9 +22,9 @@
 
 See below for the visual representation on how emails work that I got from google.
 
-
+<div style="text-align:center" markdown="1">
 ![alt text](https://github.com/antoniocarlosortiz/svi-training/blob/master/photos/email2.gif 'my drawing')
-
+</div>
 ####What is POP3 and what is IMAP4?
 
 **POP3** stands for Post Office Protocol. POP downloads emails to your computer and usually (but not always) deletes the email from the remote server. The communication is one way and the interaction of the client to server is to just download the emails to local. If you have numerous devices, all the activies you've done on one device will not be replicated on the other devices.
