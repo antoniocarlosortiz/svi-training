@@ -29,7 +29,13 @@ See below for the visual representation on how emails work that I got from googl
 
 **POP3** stands for Post Office Protocol. POP downloads emails to your computer and usually (but not always) deletes the email from the remote server. The communication is one way and the interaction of the client to server is to just download the emails to local. If you have numerous devices, all the activies you've done on one device will not be replicated on the other devices.
 
-**IMAP** allows users to store their email on remote servers. The two way protocol allows users to synchronize their email among multiple devices as all your activities in one device will be synched to the copy in the remote server which will then synch those changes to the other devices.
+**IMAP4** allows users to store their email on remote servers. The two way protocol allows users to synchronize their email among multiple devices as all your activities in one device will be synched to the copy in the remote server which will then synch those changes to the other devices.
+
+For further reference, please see links below for the official doc of both protocols:
+
+[IETF official doc: POP3](https://www.ietf.org/rfc/rfc1939.txt)
+
+[IETF official doc: IMAP4](https://tools.ietf.org/html/rfc3501)
 
 ####Question: If all my e-mails are stored on the server, how can i read my mail if i'm not connected to the internet?
 The email client creates local copies which will automatically push all changes to the mail server the next a connection has been established.
