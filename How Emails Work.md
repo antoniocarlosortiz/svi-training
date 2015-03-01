@@ -25,6 +25,7 @@ See below for the visual representation on how emails work that I got from googl
 ![alt text](https://github.com/antoniocarlosortiz/svi-training/blob/master/photos/email2.gif 'my drawing')
 
 Please see link below for further reference:
+
 [How Emails Work](http://computer.howstuffworks.com/e-mail-messaging/email.htm)
 
 ####What is POP3 and what is IMAP4?
@@ -43,6 +44,7 @@ For further reference, please see links below for the official doc of both proto
 The email client creates local copies which will automatically push all changes to the mail server the next a connection has been established.
 
 Please see below for further reference:
+
 [What is IMAP](http://whatismyipaddress.com/imap)
 
 ####How are attachments handled?
