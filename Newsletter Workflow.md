@@ -1,6 +1,7 @@
 ##Newsletter Parser Work Plan
 
-1. Write a python script to scrape contents of newsletters.
+1. Write a python script to scrape contents of newsletters. This can be done by connecting to the IMAP4 server of the domain.
+
 2. Using Natural Language Processing:
 	*	Write PythonParse email contents using beautifulsoup or scrapy on the parts with html and regex on those without.
 	*	Sort email contents depending on category, e.g. events, android, python, etc.
