@@ -12,10 +12,12 @@ To that, the whole app was divided into four distinct parts namely:
 #### Dependendies Required
 ##### For the IMAP4 connection:
 * datetime
+
 ##### For crawling the html file:
 * scrapy
 * SQLAlchemy
 * psycopg2
+
 ##### For calling the google calendar api:
 * httplib2
 * apiclient
