@@ -23,6 +23,10 @@ To that, the whole app was divided into four distinct parts namely:
 * apiclient
 * oath2client
 
+####Parsing the Email
+Upon running the script in Email Scraping folder, Google will notify the user through email that an unsecured app is trying to access the account. This is because I still havent written the script it would get the specified email/s from your account and then save the html part of it to the local directory out_dir.
+
+
 ## To Do list
 * Create a function that would check if the email have already been parsed or not.
 * Create another spider that can also get the details of smaller events.
