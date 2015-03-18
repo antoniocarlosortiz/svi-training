@@ -8,8 +8,19 @@ To that, the whole app was divided into four distinct parts namely:
 * Place the scraped data inside a database.
 * Call those scraped data from the database to serve as input to Google Calendar API.
 
-## How to use these scripts
+## How to use
 #### Dependendies Required
+##### For the IMAP4 connection:
+* datetime
+##### For crawling the html file:
+* scrapy
+* SQLAlchemy
+* psycopg2
+##### For calling the google calendar api:
+* httplib2
+* apiclient
+* oath2client
+
 ## To Do list
 * Create a function that would check if the email have already been parsed or not.
 * Create another spider that can also get the details of smaller events.
