@@ -13,7 +13,7 @@ To that, the whole app was divided into four distinct parts namely:
 ##### For the IMAP4 connection:
 * datetime
 
-##### For crawling the html file:
+##### For crawling the html files and using the database:
 * scrapy
 * SQLAlchemy
 * psycopg2
