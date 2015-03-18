@@ -11,3 +11,9 @@ To that, the whole app was divided into four distinct parts namely:
 ## How to use these scripts
 #### Dependendies Required
 ## To Do list
+* Create a function that would check if the email have already been parsed or not.
+* Create another spider that can also get the details of smaller events.
+* Create a script that could call a database function to remove duplicate entries.
+* Create a bash script to run all these automatically
+* Place an oath2 on the IMAP4 script
+* Check whether it would be better if we just use the Gmail API instead of the IMAP4 Script.
