@@ -7,3 +7,7 @@ To that, the whole app was divided into four distinct parts namely:
 * Crawl the parsed emails to get only the necessary data in them.
 * Place the scraped data inside a database.
 * Call those scraped data from the database to serve as input to Google Calendar API.
+
+## How to use these scripts
+#### Dependendies Required
+## To Do list
