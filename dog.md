@@ -1,3 +1,7 @@
-#Week 4 Code Samples
+#Email to Google Calendar
 
-* [The SVI Email to Calendar Folder](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar) contains the scripts and instructions needed to parse emails from an email client, scrape the data from those emails, place those scraped data inside the database, then calls them in a format that would be understood by the Google Calendar API. 
+The main purposefour of these scripts is to parse the events stated on subscription emails and automatically create events on the user's google calendar with regards to those.
+
+To that, the whole app was divided into four distinct parts namely:
+* dog
+    * dog
