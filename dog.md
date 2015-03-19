@@ -97,8 +97,8 @@ Reference links:
 *   [Activating a virtualenv using a shell script doesnt seem to work.](http://stackoverflow.com/questions/7369145/activating-a-virtualenv-using-a-shell-script-doesnt-seem-to-work)
 
 ##To Do list
-* <s>Add links to the docs.</s>
-* Create a function that would check if the email have already been parsed or not.
+* <s>Add links to the docs.</s> 03/19/2015
+* Create a function that would check if the email have already been scraped or not.
 * Create another spider that can also get the details of smaller events.
 * Create a script that could call a database function to remove duplicate entries.
 * Create a bash script to run all these automatically
