@@ -74,7 +74,7 @@ This should run properly provided that all the steps from start have been follow
 Reference links:
 *   [How to install and use postgresql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)
 *   [Postgresql Tutorial](http://zetcode.com/db/postgresqlpythontutorial/)
-*   [Simple SQLAlchemy Tutorial](http://www.blog.pythonlibra)ry.org/2012/07/01/a-simple-sqlalchemy-0-7-0-8-tutorial/)
+*   [Simple SQLAlchemy Tutorial](http://www.blog.pythonlibrary.org/2012/07/01/a-simple-sqlalchemy-0-7-0-8-tutorial/)
 *   [sqlalchemy or psycopg2](http://stackoverflow.com/questions/8588126/sqlalchemy-or-psycopg2)
 *   [is it possible to check or change postgresql-user-password](http://stackoverflow.com/questions/12720967/is-possible-to-check-or-change-postgresql-user-password)
 *   [SQLAlchemy 0.9 Documentation Object Relational Tutorial](http://docs.sqlalchemy.org/en/rel_0_9/orm/tutorial.html)
@@ -97,6 +97,7 @@ Reference links:
 *   [Activating a virtualenv using a shell script doesnt seem to work.](http://stackoverflow.com/questions/7369145/activating-a-virtualenv-using-a-shell-script-doesnt-seem-to-work)
 
 ##To Do list
+<s>* Add links to the docs.</s>
 * Create a function that would check if the email have already been parsed or not.
 * Create another spider that can also get the details of smaller events.
 * Create a script that could call a database function to remove duplicate entries.
