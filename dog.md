@@ -26,15 +26,29 @@ To that, the whole app was divided into four distinct parts namely:
 ####Parsing the Email
 Upon running the script in Email Scraping folder, Google will notify the user through email that an unsecured app is trying to access the account. This is because I still havent created the oath2 for this which Google recommends to have for every app that access its services. The user can simply change the setting of his account to allow 'less secure apps' just for this. Once that is done, running the script will get the specified email/s from your account and then save the html part of it to the local directory [out_dir](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/Email%20Scraping/out_dir).
 
-On running this, simply input the following command in the terminal:
+On running this, simply input the following command in the terminal
 
     python email_scraper.py
-This will then save the html contents of all the emails scraped inside the out_dir 
+This will then save the html contents of all the emails scraped inside the local directory
 
 ####Scrape data out of the Email
 Once the html part of the email has been saved, we can now get the specific contents of the email using Scrapy using the app in the [my_scraper](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/my_scraper) folder.
 
-To run this:
+For this to run, the user should have already created a postgres database and have all its details on the settings.py so the app can access it. Also, the local_url in the spider script should be changed to the user's local
+
+To start this, go inside the my_scraper folder and run the command:
+http://newcoder.io/scrape/intro/
+
+    scrapy crawl crunchbaseevents_spider
+Scrapy is the the name of the framework we use. Crawl is the command for the spider to start crawling the website, and crunchbaseevents_spider is the name of the spider specified in the spider script. Running the command will place all the scraped data inside the specified database
+
+For a more detailed instructions, please go to the link below:
+
+[Introduction to Web Scraping using Scrapy and Postgres](http://newcoder.io/scrape/intro/)
+
+####Query from the database, edit the result, then use that to post events through the google calendar api.
+
+
 
 ## To Do list
 * Create a function that would check if the email have already been parsed or not.
