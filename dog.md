@@ -47,8 +47,16 @@ For a more detailed instructions, please go to the link below:
 [Introduction to Web Scraping using Scrapy and Postgres](http://newcoder.io/scrape/intro/)
 
 ####Query from the database, edit the result, then use that to post events through the google calendar api.
+On querying, simply run the script named  [database_query.py](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/database_query.py) inside folder [SVI Calendar](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar). What this does is it queries all the info inside the database used in Scrapy then formats it in a a way that can be read by the google calendar api. You dont need to run this as this function inside will be called by the final script.
 
+The queried dates are edited to fit the api by calling the script named [stringtodate.py](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/stringtodate.py)
 
+The queried data is then used by the script upcoming.py which accesses the api of google. The other scripts named client_secret.json and credentials.dat are used by api for its oath2 authentication method and can be obtained by following the instructions on the google developer site.
+
+To run this, simply call:
+
+        python upcoming.py
+This should run properly provided that all the steps from start have been followed.
 
 ## To Do list
 * Create a function that would check if the email have already been parsed or not.
