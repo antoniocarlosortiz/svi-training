@@ -24,8 +24,16 @@ To that, the whole app was divided into four distinct parts namely:
 * oath2client
 
 ####Parsing the Email
-Upon running the script in Email Scraping folder, Google will notify the user through email that an unsecured app is trying to access the account. This is because I still havent written the script it would get the specified email/s from your account and then save the html part of it to the local directory out_dir.
+Upon running the script in Email Scraping folder, Google will notify the user through email that an unsecured app is trying to access the account. This is because I still havent created the oath2 for this which Google recommends to have for every app that access its services. The user can simply change the setting of his account to allow 'less secure apps' just for this. Once that is done, running the script will get the specified email/s from your account and then save the html part of it to the local directory [out_dir](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/Email%20Scraping/out_dir).
 
+On running this, simply input the following command in the terminal
+  python email_scraper.py
+This will then save the html contents of all the emails scraped inside the out_dir 
+
+####Scrape data out of the Email
+Once the html part of the email has been saved, we can now get the specific contents of the email using Scrapy using the app in the [my_scraper](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/my_scraper) folder.
+
+To run this:
 
 ## To Do list
 * Create a function that would check if the email have already been parsed or not.
