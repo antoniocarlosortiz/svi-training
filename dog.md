@@ -9,9 +9,9 @@ To that, the whole app was divided into four distinct parts namely:
 * Call those scraped data from the database to serve as input to Google Calendar API.
 
 ## How to use
-#### Dependendies Required
+#### Dependendies Required that are normally not included in the initial Python Setup:
 ##### For the IMAP4 connection:
-* datetime
+* getpass
 
 ##### For crawling the html files and using the database:
 * scrapy
