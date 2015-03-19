@@ -82,7 +82,21 @@ Reference links:
 *   [Oath2.0 Google APIs Client Library for Python](https://developers.google.com/api-client-library/python/guide/aaa_oauth#flow_from_clientsecrets)
 *   [Google Calendar API Insert Events](https://developers.google.com/google-apps/calendar/v3/reference/events/insert)
 *   [Using Google Calendar API v 3 with Python](http://stackoverflow.com/questions/14058964/using-google-calendar-api-v-3-with-python)
-## To Do list
+
+###Bash Scripts and CronTab
+Instead of running all these scripts by yourself, we can create a bash script and input that to the crontab so that it will automatically schedule the run of all of these. What I still havent done this for the whole app and i've only written one for the spider just to see if it works. To run it, get inside the my_scraper folder and run the following command:
+
+        source scrape.sh
+The specific command should be source and not sh because we will be working in a virtualenv and the script would not work if the latter was used.
+
+Reference links:
+*   [Beginners guide to shell scripting](http://www.howtogeek.com/67469/the-beginners-guide-to-shell-scripting-the-basics/)
+*   [HowTo: Run the .sh File Shell Script In Linux / UNIX](http://www.cyberciti.biz/faq/run-execute-sh-shell-script/)
+*   [Linux and Unix crontab command](http://www.computerhope.com/unix/ucrontab.htm)
+*   [What are cron and crontab, and how do I use them?](https://kb.iu.edu/d/afiz)
+*   [Activating a virtualenv using a shell script doesnt seem to work.](http://stackoverflow.com/questions/7369145/activating-a-virtualenv-using-a-shell-script-doesnt-seem-to-work)
+
+##To Do list
 * Create a function that would check if the email have already been parsed or not.
 * Create another spider that can also get the details of smaller events.
 * Create a script that could call a database function to remove duplicate entries.
