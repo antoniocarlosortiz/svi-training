@@ -51,7 +51,7 @@ On querying, simply run the script named  [database_query.py](https://github.com
 
 The queried dates are edited to fit the api by calling the script named [stringtodate.py](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/stringtodate.py)
 
-The queried data is then used by the script upcoming.py which accesses the api of google. The other scripts named client_secret.json and credentials.dat are used by api for its oath2 authentication method and can be obtained by following the instructions on the google developer site.
+The queried data is then used by the script [upcoming.py](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/upcoming.py) which accesses the api of google. The other scripts named [client_secret.json](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/client_secret.json) and [credentials.dat](https://github.com/SiliconValleyInsight/svi-training-a/blob/master/code-samples/week4/SVI%20Email%20to%20Calendar/SVI%20Calendar/credentials.dat) are used by api for its oath2 authentication method and can be obtained by following the instructions on the google developer site.
 
 To run this, simply call:
 
