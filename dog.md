@@ -3,11 +3,11 @@
 The main purpose of these scripts is to parse the events stated on subscription emails and automatically create events on the user's google calendar with regards to those.
 
 To that, the whole app was divided into four distinct parts namely:
-* Parse the specified emails using an IMAP connection to the mail client.
-* Crawl the parsed emails to get only the necessary data in them.
-* Place the scraped data inside a database.
-* Call those scraped data from the database to serve as input to Google Calendar API.
-* Schedule to call all these weekly for the calendar to be updated.
+* [Scrape the specified emails using an IMAP connection to the mail client.](####Scrape the mail account)
+* [Crawl the parsed emails to get only the necessary data in them.](####Scrape data out of the Email)
+* [Place the scraped data inside a database.](####Scrape data out of the Email)
+* [Call those scraped data from the database to serve as input to Google Calendar API.](####Query from the database, edit the result, then use that to post events through the google calendar api.)
+* [Schedule to call all these weekly for the calendar to be updated.](###Bash Scripts and CronTab)
 
 ## How to use
 #### Dependendies Required that are normally not included in the initial Python Setup:
@@ -24,7 +24,7 @@ To that, the whole app was divided into four distinct parts namely:
 * apiclient
 * oath2client
 
-####Parsing the Email
+####Scrape the mail account
 Upon running the script in Email Scraping folder, Google will notify the user through email that an unsecured app is trying to access the account. This is because I still havent created the oath2 for this which Google recommends to have for every app that access its services. The user can simply change the setting of his account to allow 'less secure apps' just for this. Once that is done, running the script will get the specified email/s from your account and then save the html part of it to the local directory [out_dir](https://github.com/SiliconValleyInsight/svi-training-a/tree/master/code-samples/week4/SVI%20Email%20to%20Calendar/Email%20Scraping/out_dir).
 
 On running this, simply input the following command in the terminal
